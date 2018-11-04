@@ -4,15 +4,15 @@
   		<ul class="nav navbar-nav navbar-left">
   			<div class="social_app_logo">
 	      	<%= link_to image_tag("logo.png", alt: "Social app logo"),
-	            'http://rubyonrails.org/' %>
+	            root_path %>
         </div>
-        <%= link_to "social app", '#', id: "logo" %>
+        <%= link_to "social app", root_path, id: "logo" %>
   		</ul>
 		</nav>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",   '#' %></li>
-        <li><%= link_to "Help",   '#' %></li>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Help", help_path %></li>
         <li><%= link_to "Log in", '#' %></li>
       </ul>
     </nav>
