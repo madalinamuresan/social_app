@@ -1,0 +1,20 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+  	<nav>
+  		<ul class="nav navbar-nav navbar-left">
+  			<div class="social_app_logo">
+	      	<%= link_to image_tag("logo.png", alt: "Social app logo"),
+	            'http://rubyonrails.org/' %>
+        </div>
+        <%= link_to "social app", '#', id: "logo" %>
+  		</ul>
+		</nav>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   '#' %></li>
+        <li><%= link_to "Help",   '#' %></li>
+        <li><%= link_to "Log in", '#' %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
